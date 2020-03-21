@@ -4,6 +4,7 @@
   "description": "Person Management example written in Javascript",
   "main": "app.js",
   "scripts": {
+    "build": "webpack",
     "test": "jest",
     "test:coverage": "jest --collectCoverage"
   },
