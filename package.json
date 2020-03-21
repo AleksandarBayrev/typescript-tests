@@ -1,0 +1,19 @@
+{
+  "name": "person-management",
+  "version": "1.0.0",
+  "description": "Person Management example written in Javascript",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest",
+    "test:coverage": "jest --collectCoverage"
+  },
+  "author": "Aleksandar Bayrev",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^25.1.4",
+    "@types/node": "^13.9.2",
+    "jest": "~25.1.0",
+    "ts-jest": "~25.2.0",
+    "typescript": "~3.8.3"
+  }
+}
