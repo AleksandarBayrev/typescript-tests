@@ -7,7 +7,8 @@
     "build": "webpack",
     "start": "node ./dist/app.js",
     "test": "jest",
-    "test:coverage": "jest --collectCoverage"
+    "test:coverage": "jest --collectCoverage",
+    "cleanbuild": "shx rm -rf ./dist"
   },
   "author": "Aleksandar Bayrev",
   "license": "ISC",
@@ -15,6 +16,7 @@
     "@types/jest": "^25.1.4",
     "@types/node": "^13.9.2",
     "jest": "~25.1.0",
+    "shx": "^0.3.2",
     "ts-jest": "~25.2.0",
     "ts-loader": "~6.2.1",
     "typescript": "~3.8.3",
