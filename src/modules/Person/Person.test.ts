@@ -1,4 +1,5 @@
-import { Person } from "../modules"
+import { Person } from "./Person"
+import { IPerson } from "../../contracts"
 
 describe("Person", () => {
     it("Person is a function", () => {
@@ -8,9 +9,9 @@ describe("Person", () => {
     it("Person creates an instance successfully", () => {
         const name: string = "Test person"
         const age: number = 19
-        let instance: Person = new Person(name, age)
+        let instance: IPerson = new Person(name, age)
         expect(instance).toBeInstanceOf(Person)
-        expect(instance.name).toEqual(name)
-        expect(instance.age).toEqual(age)
+        expect(instance.Name).toEqual(name)
+        expect(instance.Age).toEqual(age)
     })
 });
